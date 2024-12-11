@@ -84,3 +84,7 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.nav {
+  margin-bottom: 40px;
+}
