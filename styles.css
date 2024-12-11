@@ -2,14 +2,66 @@ body {
   background-color: rgb(243, 243, 243);
 }
 
-.navbar {
-  width: 50%;
-  display: flex;
-  margin: 0 auto;
+.duck-gif {
+  width: 200px;
+  border-radius: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#nav-header {
+  color: black;
+}
+
+ul {
   font-size: 20px;
 }
 
 p {
+  margin: 25px;
   text-align: center;
   font-size: large;
+}
+
+h1 {
+  margin: 20px;
+}
+
+hr {
+  width: 20%;
+  margin: 0 auto;
+}
+
+img {
+  width: 30px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link-item {
+  margin: 20px;
+}
+
+img {
+  margin: 10px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 25px;
 }
