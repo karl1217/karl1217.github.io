@@ -23,6 +23,7 @@ a:visited {
 
 #nav-header {
   color: black;
+  font-weight: bold;
 }
 
 ul {
@@ -73,7 +74,7 @@ img {
 
 .list ul {
   list-style: none;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .list li {
