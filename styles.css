@@ -65,3 +65,22 @@ img {
   text-align: center;
   font-size: 25px;
 }
+
+.list {
+  display: flex;
+  margin: 25px;
+}
+
+.list ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+.list li {
+  margin: 10px;
+}
+
+.list-position {
+  display: flex;
+  justify-content: center;
+}
