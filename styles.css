@@ -63,7 +63,8 @@ img {
 .links {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .link-item {
@@ -127,6 +128,14 @@ img {
 
 .header-icon {
   margin-left: 15px;
+}
+
+.display-1 {
+  font-size: 40px;
+}
+
+.coursework-list {
+  margin-bottom: 55px;
 }
 
 @media (max-width: 768px) {
