@@ -63,6 +63,7 @@ img {
 .links {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .link-item {
@@ -152,5 +153,9 @@ img {
 
   .nav {
     margin-top: 25px;
+  }
+
+  .links {
+    text-align: center;
   }
 }
