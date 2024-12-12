@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(241, 252, 255);
 }
 
 .duck-gif {
@@ -26,6 +26,14 @@ a:visited {
   font-weight: bold;
 }
 
+.nav-item {
+  border-bottom: 1px rgb(182, 182, 182) solid;
+}
+
+#page-button:hover {
+  border-bottom: 1px #3284ff solid;
+}
+
 ul {
   font-size: 20px;
 }
@@ -34,6 +42,10 @@ p {
   margin: 25px;
   text-align: center;
   font-size: large;
+}
+
+.nav {
+  margin-top: 10px;
 }
 
 h1 {
@@ -96,4 +108,38 @@ img {
 
 .row {
   margin: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#page-card {
+  width: 40%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  #page-card {
+    width: 100%;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .col {
+    margin: 10px;
+  }
+
+  .list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .list ul {
+    margin-left: -30px;
+  }
 }
