@@ -116,6 +116,10 @@ img {
   height: 100%;
 }
 
+.card {
+  border-radius: 10px;
+}
+
 #page-card {
   width: 40%;
   height: 100%;
